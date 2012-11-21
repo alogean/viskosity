@@ -10,6 +10,7 @@ VISKOSITY.graphStore = (function($) {
 "use strict";
 
 var store = {};
+
 store.init = function(nodes, edges) {
 	this.nodes = nodes || [];
 	this.edges = edges || [];
@@ -22,9 +23,11 @@ store.init = function(nodes, edges) {
 
 	return this;
 };
+
 store.getNode = function(id) {
 	return this.nodeCache[id];
 };
+
 store.addNode = function(id, attribs) {
 	// TODO: validate ID
 	var node = { id: id };
@@ -34,6 +37,7 @@ store.addNode = function(id, attribs) {
 	}
 	return isNew;
 };
+
 store.updateNode = function(id, attribs) {
 	var node = this.getNode(id);
 
@@ -46,6 +50,7 @@ store.updateNode = function(id, attribs) {
 
 	return $.extend(node, attribs);
 };
+
 store.registerNode = function(node) {
 	if(!node.id) {
 		throw "node lacks ID";
@@ -57,6 +62,7 @@ store.registerNode = function(node) {
 	this.nodeCache[node.id] = node;
 	return true;
 };
+
 store.addEdge = function(sourceID, targetID, attribs) {
 	this.addNode(sourceID);
 	this.addNode(targetID);

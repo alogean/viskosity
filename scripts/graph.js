@@ -5,11 +5,12 @@ VISKOSITY.graph = (function($) {
 
 "use strict";
 
-var prop = VISKOSITY.getProp,
+var prop       = VISKOSITY.getProp,
 	setContext = VISKOSITY.setContext,
 	collide;
 
 var PRESENTER = {}; // TODO: move elsewhere
+
 PRESENTER.nodeShape = function(node) {
 	var shapes = {}; // TODO: move elsewhere
 	var shape = shapes[node.type] || "circle";
@@ -17,6 +18,7 @@ PRESENTER.nodeShape = function(node) {
 	node.size = Math.sqrt(size); // shape size is in px²
 	return d3.svg.symbol().type(shape).size(size)();
 };
+
 PRESENTER.nodeColor = (function(fn) {
 	return function(node) {
 		var index = {
@@ -26,11 +28,13 @@ PRESENTER.nodeColor = (function(fn) {
 		return fn(index);
 	};
 }(d3.scale.category20()));
+
 PRESENTER.edgePath = {
 	"default": drawLine,
-	broader: drawArc,
-	narrower: drawArc
+	broader: drawLine,
+	narrower: drawLine
 };
+
 PRESENTER.edgeStrength = function(edge) {
 	var strengths = { // TODO: move elsewhere
 		"default": 0,
@@ -50,6 +54,7 @@ var graph = {
 	linkStrength: 0.5,
 	identity: prop("id")
 };
+
 // `container` may be a DOM node, selector or jQuery object
 // `data` is the initial data set, an object with arrays for `nodes` and `edges`
 // `settings` is an optional set of key-value pairs for width and height
@@ -81,6 +86,7 @@ graph.init = function(container, data, settings) {
 
 	this.graph.on("tick", $.proxy(this, "onTick"));
 };
+
 graph.onTick = function(ev) {
 	// collision detection
 	var nodes = this.graph.nodes();
@@ -102,6 +108,7 @@ graph.onTick = function(ev) {
 		return "translate(" + node.x + "," + node.y + ")";
 	});
 };
+
 graph.render = function() { // TODO: rename?
 	var edges = this.root.selectAll("line.link").
 			data(this.graph.links());

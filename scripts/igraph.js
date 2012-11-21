@@ -6,7 +6,7 @@ VISKOSITY.igraph = (function($) {
 
 "use strict";
 
-var base = VISKOSITY.graph,
+var base   = VISKOSITY.graph,
 	pusher = VISKOSITY.pusher;
 
 var igraph = Object.create(base);
@@ -23,17 +23,20 @@ igraph.init = function() {
 					on("zoom", $.proxy(this, "onZoom"))).
 			append("g"); // required for zoom context
 };
+
 igraph.onClick = function(item) {
 	var self = this.graph;
 	self.toggleHighlight(this.context);
 	var data = { nodes: self.graph.nodes(), edges: self.graph.links() };
 	self.provider(item, self.store, $.proxy(self, "render"));
 };
+
 igraph.onZoom = function() {
 	var ev = d3.event;
 	this.root.attr("transform",
 			"translate(" + ev.translate + ")scale(" + ev.scale + ")");
 };
+
 igraph.toggleHighlight = function(el) { // TODO: rename
 	this.root.selectAll(".active").classed("active", false);
 	if(el) {

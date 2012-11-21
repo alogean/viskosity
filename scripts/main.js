@@ -6,7 +6,9 @@
 "use strict";
 
 var provider = VISKOSITY.rdfProvider;
-var uri = document.location.hash.substr(1);
+//var provider = VISKOSITY.sampleProvider;
+
+var uri      = document.location.hash.substr(1);
 
 var graph = Object.create(VISKOSITY.igraph);
 var win = $(window);
