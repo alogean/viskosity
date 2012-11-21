@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+<!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+]><rdf:RDF
+xmlns:skos="&skos;"
+xmlns:rdf="&rdf;"
+xmlns:rdfs="&rdfs;"
+>
+<skos:Concept rdf:about="http://sitg.ch/0001">
+   <skos:prefLabel xml:lang="fr">SITG</skos:prefLabel>
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0002">
+   <skos:prefLabel xml:lang="fr">CHILD 1</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0001" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0003">
+   <skos:prefLabel xml:lang="fr">CHILD 2</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0001" />
+</skos:Concept>
+
+</rdf:RDF>
