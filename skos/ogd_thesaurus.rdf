@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dct="http://purl.org/dc/terms/" xmlns="http://ogd-thesaurus.heroku.com/" xmlns:coll="http://ogd-thesaurus.heroku.com/collections/" xmlns:schema="http://ogd-thesaurus.heroku.com/schema#">
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000010">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">cancer [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Krebs</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000004"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00683/00689/index.html?lang=fr</skos:definition>
+    <skos:definition xml:lang="fr">http://www.oncosuisse.ch/pages/home/?oid=1461&amp;lang=en</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000011">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">démence [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Demenz</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000004"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00683/12261/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T08:16:19-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000014">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">dépression [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Depression</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000013"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00683/03923/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000015">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">diabète [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Diabetes</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000016">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">maladie cardiovasculaire [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Herz-Kreislaufserkrankung</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000017">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">maladie respiratoire [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Atemwegserkrankung</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000019">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">grippe [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Grippe</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">influenza [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000003"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/influenza/01118/01121/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000003">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">maladie infectieuse [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Infektionskrankheit</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000019"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000007"/>
+    <skos:related rdf:resource="http://ogd-thesaurus.heroku.com/_00000006"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000002"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:modified>2012-08-04T04:57:27-07:00</dct:modified>
+        <dct:creator>Admin Istrator</dct:creator>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00682/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T08:42:30-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000007">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rougeole [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Masern</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000003"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00682/00684/01087/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T08:44:31-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000026">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">prime de l’assurance-maladie [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Krankenversicherungsprämien</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000024"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000027">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">assureur [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Versicherer</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000024"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/00295/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000028">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">prestation [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Leistung</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000024"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/00263/00264/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000029">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">fournisseur de prestations [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Leistungserbringer</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000024"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/06693/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000030">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">tarifs et prix [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Tarife und Preise</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000031"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000032"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000033"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000024"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000034"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000035"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000036"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000031">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">TARMED [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">TARMED</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000030"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/06492/06494/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000032">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">SwissDRG [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">SwissDRG</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000030"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/06492/12987/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000033">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">liste des analyses [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Analysenliste</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">LA [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="de">AL</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000030"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/00263/00264/04185/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000034">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Liste des médicaments avec tarif [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Arzneimittelliste mit Tarif</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">LMT [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="de">ALT</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000030"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/06492/06493/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000035">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">liste des spécialités [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Spezialitätenliste</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">LS [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="de">SL</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000030"/>
+    <skos:definition xml:lang="fr">http://bag.e-mediat.net/SL2007.Web.External/Default.aspx</skos:definition>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/00263/00264/00265/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000036">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">liste des moyens et appareils [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Mittel- und Gegenstände-Liste</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">LiMA [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="de">MiGeL</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000030"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/00263/00264/00265/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T21:02:13-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000042">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">additif [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Zusatzstoff</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000041"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/lebensmittel/04861/04974/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000043">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">aliment fonctionnel [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Functional Food</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000041"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/lebensmittel/04861/04965/index.html?lang=fr</skos:definition>
+    <skos:definition xml:lang="fr">Denrée alimentaire dont les propriétés spécifiques vont au-delà du simple effet nutritif associé aux éléments nutritifs qu'elle contient.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000044">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">champignon [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Speisepilz</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000041"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/lebensmittel/04861/04971/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000045">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">valeur nutritionnelle [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Nährwertdaten</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000041"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/ernaehrung_bewegung/05191/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000047">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">tabac [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Tabak</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000046"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/drogen/00041/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000048">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">alcool [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Alkohol</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000046"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/drogen/00039/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000049">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">drogue [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Drogen</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000046"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000055"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000056"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000057"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000058"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/drogen/00042/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000055">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="de">Liquid Ecstasy</skos:altLabel>
+    <skos:prefLabel xml:lang="fr">GHB [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">GHB</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">gamma-hydroxybutyrate [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="fr">gammabutyrolactone [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="fr">GBL [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="fr">butanediol [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="fr">BD [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="fr">ecstasy liquide [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="fr">gouttes KO [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="de">Gammahydroxybutyrat</skos:altLabel>
+    <skos:altLabel xml:lang="de">Gammahydroxybutyrolacton</skos:altLabel>
+    <skos:altLabel xml:lang="de">GBL</skos:altLabel>
+    <skos:altLabel xml:lang="de">Butandiol</skos:altLabel>
+    <skos:altLabel xml:lang="de">BD</skos:altLabel>
+    <skos:altLabel xml:lang="de">KO-Tropfen</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000049"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/chemikalien/00228/04267/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000056">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">cannabis [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Cannabis</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000049"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/drogen/00042/00643/00646/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000057">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">opiacé [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Opiat</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000049"/>
+    <skos:definition xml:lang="fr">http://fr.wikipedia.org/wiki/Opiac%C3%A9</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000058">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">cocaïne [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Kokain</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000049"/>
+    <skos:definition xml:lang="fr">http://fr.wikipedia.org/wiki/Coca%C3%AFne</skos:definition>
+    <skos:definition xml:lang="de">http://de.wikipedia.org/wiki/Kokain</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000051">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">radioactivité [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Radioaktivität</skos:prefLabel>
+    <skos:related rdf:resource="http://ogd-thesaurus.heroku.com/_00000050"/>
+    <skos:related rdf:resource="http://ogd-thesaurus.heroku.com/_00000052"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000060"/>
+    <skos:definition xml:lang="fr">Section Radioactivité de l'Environnement
+http://www.bag.admin.ch/themen/strahlung/12128/index.html?lang=fr</skos:definition>
+    <skos:definition xml:lang="fr">Rejets de radioactivité
+http://www.bag.admin.ch/themen/strahlung/12267/index.html?lang=fr</skos:definition>
+    <skos:definition xml:lang="fr">Substances radioactives
+http://www.bag.admin.ch/themen/strahlung/10468/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:21:39-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">Données Online RADAIR
+http://www.bag.admin.ch/themen/strahlung/12128/12266/12272/index.html?lang=de</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000050">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rayonnement [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Strahlung</skos:prefLabel>
+    <skos:related rdf:resource="http://ogd-thesaurus.heroku.com/_00000051"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000052"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000053"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000060"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/strahlung/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:26:43-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000052">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">champ électromagnétique [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">elektromagnetische Felder</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">electromagnetic field [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">CEM [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="de">EMF</skos:altLabel>
+    <skos:altLabel xml:lang="en">EMF [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000050"/>
+    <skos:related rdf:resource="http://ogd-thesaurus.heroku.com/_00000051"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/strahlung/00053/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:27:24-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000053">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">rayonnement ultraviolet [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">ultraviolette Strahlung</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000050"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/uv_strahlung/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:modified>2012-08-04T22:45:08-07:00</dct:modified>
+        <dct:creator>Admin Istrator</dct:creator>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">Les variations d'intensité du rayonnement ultraviolet
+http://www.bag.admin.ch/uv_strahlung/10651/index.html?lang=fr</skos:definition>
+    <skos:definition xml:lang="fr">Prévision de l'index UV
+http://www.bag.admin.ch/uv_strahlung/10652/10682/index.html?lang=fr</skos:definition>
+    <skos:definition xml:lang="fr">Les effets sur la santé
+http://www.bag.admin.ch/uv_strahlung/11782/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:28:46-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000065">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">transplantation [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Transplantation</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000064"/>
+    <skos:definition xml:lang="fr">Médecine de la transplantation
+http://www.bag.admin.ch/transplantation/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000006">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">vaccination [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Impfung</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000064"/>
+    <skos:related rdf:resource="http://ogd-thesaurus.heroku.com/_00000003"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:modified>2012-08-04T08:41:29-07:00</dct:modified>
+        <dct:creator>Admin Istrator</dct:creator>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00682/00685/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:34:38-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000067">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">soin palliatif [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">palliative Care</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000064"/>
+    <skos:definition xml:lang="de">Palliative Care umfasst die Betreuung und die Behandlung von Menschen mit unheilbaren, lebensbedrohlichen und/oder chronisch fortschreitenden Krankheiten. Sie beugt Leiden und Komplikationen vor und beinhaltet medizinische Behandlungen, pflegerische Interventionen sowie psychologische, soziale und spirituelle Unterstützung.</skos:definition>
+    <skos:definition xml:lang="fr">Les soins palliatifs englobent le soutien et les traitements médicaux apportés aux personnes souffrant de maladies incurables, potentiellement mortelles et/ou chroniques évolutives. Ils visent à éviter la souffrance et les complications. Les soins palliatifs comprennent les traitements médicaux, les soins, ainsi que le soutien psychologique, social et spirituel.</skos:definition>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/06082/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:39:44-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000069">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">procréation médicalement assistée [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Fortpflanzungsmedizin</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000064"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/03878/index.html?lang=fr</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000024">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">assurance-maladie [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Krankenversicherung</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000026"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000027"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000028"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000029"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000030"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000071"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/krankenversicherung/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:modified>2012-08-04T08:51:39-07:00</dct:modified>
+        <dct:creator>Admin Istrator</dct:creator>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">L’assurance-maladie sociale permet l’accès à toute personne vivant en Suisse aux soins adéquats en cas de maladie et d'accident, si pas couvert par l'assurance-accidents.</skos:definition>
+    <skos:definition xml:lang="de">Die soziale Krankenversicherung gewährt allen in der Schweiz lebenden Personen Zugang zu einer guten medizinischen Versorgung. Bei Krankheit oder Unfall stellt sie die medizinische Behandlung sicher, falls eine solche nicht von der Unfallversicherung abgedeckt wird.</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:47:22-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000018">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">suicide [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Suizid</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000013"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00683/01915/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:52:24-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000046">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">addiction [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Sucht</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000047"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000048"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000049"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000002"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:54:00-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000079">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">activité physique [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Alltagsbewegung</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000080"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/ernaehrung_bewegung/11660/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Antoine Logean</dct:creator>
+        <dct:modified>2012-08-05T00:11:50-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000041">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">alimentation [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Ernährung</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000080"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000042"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000043"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000044"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000045"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/lebensmittel/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Antoine Logean</dct:creator>
+        <dct:modified>2012-08-05T00:12:25-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000083">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <schema:memberOf rdf:resource="http://ogd-thesaurus.heroku.com/collections/_00000123"/>
+    <skos:prefLabel xml:lang="fr">SUVA [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">SUVA</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000038"/>
+    <skos:related rdf:resource="http://ogd-thesaurus.heroku.com/_00000070"/>
+    <skos:definition xml:lang="fr">http://www.suva.ch/fr/startseite-suva</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000070">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">assurance-accidents [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Unfallversicherung</skos:prefLabel>
+    <skos:related rdf:resource="http://ogd-thesaurus.heroku.com/_00000083"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000071"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/versicherung/00321/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:47:55-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Antoine Logean</dct:creator>
+        <dct:modified>2012-08-05T00:37:52-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000060">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Strahlung-Radioaktivität-Schall</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">rayonnement-radioactivité-son [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000086"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000051"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000050"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/strahlung/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-08T22:24:44-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000002">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Krankheit</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">maladie [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">disease [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000001"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000003"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000046"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000004"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000005"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000013"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-08T22:44:31-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">voir la classification de l'OMS http://apps.who.int/classifications/icd/en/</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:12:02-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000004">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">nichtübertragbare Krankheit</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">maladie non transmissible [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">infectious disease [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="de">chronische Krankheit</skos:altLabel>
+    <skos:altLabel xml:lang="fr">maladie chronique [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000010"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000011"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000015"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000016"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000017"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000002"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T08:07:09-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00683/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:20:01-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000001">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="http://ogd-thesaurus.heroku.com/scheme"/>
+    <skos:prefLabel xml:lang="de">Gesundheit</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">santé [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">health [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000002"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000038"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000104"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000064"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Antoine Logean</dct:creator>
+        <dct:modified>2012-08-05T00:46:16-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:07:55-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:34:29-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d'infirmité.</skos:definition>
+    <skos:definition xml:lang="en">Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.</skos:definition>
+    <skos:definition xml:lang="de">Gesundheit des Menschen ist ein Zustand des vollständigen körperlichen, geistigen und sozialen Wohlergehens und nicht nur das Fehlen von Krankheit oder Gebrechen.</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:44:11-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:editorialNote xml:lang="fr">voir http://www.spim.jussieu.fr/fr</skos:editorialNote>
+    <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Health"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000038">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Organisation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">organisation [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">organization [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="de">Institution</skos:altLabel>
+    <skos:altLabel xml:lang="fr">institution [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="en">institution [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="en">organisme [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="en">association [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="en">structure [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:altLabel xml:lang="en">syndicat [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000083"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000001"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000071"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000113"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000119"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:52:59-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:48:09-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000104">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Risikofaktor</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">facteur de risque [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">risk factor [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000001"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000086"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000086">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Umwelt</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">environement [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">environement [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000060"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000104"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:11:07-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:54:52-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000080">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Lebensstil</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">hygiène de vie [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000079"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000041"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000104"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:55:46-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:56:13-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000064">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Medizin</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">médecine [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">medicine [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000065"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000006"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000067"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000069"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000001"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:23:37-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T20:26:41-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="en">Medicine is the field of applied science and the art of healing. It encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness in human beings.</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T21:09:03-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T21:11:13-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="de">&lt;img src="http://www.internationaluniversity-schoolofmedicine.org/images/CADUCEUS.1.gif"/&gt;</skos:definition>
+    <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Medicine"/>
+    <skos:relatedMatch rdf:resource="http://www.freebase.com/view/medicine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000071">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Versicherung</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">assurance [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000024"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000070"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000038"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-31T03:04:43-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000113">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Bundesamt</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">office fédéral [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000038"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000040"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000091"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000092"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000093"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000094"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000040">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Bundesamt für Gesundheit</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Office fédéral de la santé publique [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="de">BAG</skos:altLabel>
+    <skos:altLabel xml:lang="fr">OFSP [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000113"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-12T07:34:53-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="de">Oberstes Ziel aller Aktivitäten und Bemühungen des BAG ist die Erhaltung und Förderung der Gesundheit aller in der Schweiz lebenden Menschen. Unter Gesundheit wird dabei mehr verstanden als nur das Fehlen von Krankheiten. Gesundheit wird vielmehr  als eine der wichtigen Voraussetzungen wahrgenommen, die eine produktive und selbstbestimmte Lebensführung ermöglichen. Entsprechend breit ist das Aufgabengebiet des Amtes. In seinem Handeln geht das BAG von der Eigenverantwortung des Menschen aus; es muss aber in bestimmten Bereichen der öffentlichen Gesundheit zum Schutz der Bevölkerung Massnahmen treffen.</skos:definition>
+    <skos:definition xml:lang="de">Bundesamt für Gesundheit (BAG)
+3003 Bern
+Telefon 031 322 21 11</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-12T07:44:02-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">La santé de la population suisse et sa promotion se trouvent au cœur des activités de l’OFSP. Le terme englobe plus que l’absence de maladies. La santé est en effet davantage considérée comme l‘une des conditions essentielles permettant d‘avoir un mode de vie productif et autonome. Le domaine d’activité de cet ofﬁce est par conséquent très vaste. L’action de l’OFSP se base sur la responsabilisation de l’être humain ; il doit cependant prendre des mesures visant la protection de la population dans certains domaines de la santé publique.</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-31T03:17:56-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000091">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Bundesamt für Sozialversicherung</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Ofﬁce fédéral des assurances sociales [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="de">BSV</skos:altLabel>
+    <skos:altLabel xml:lang="fr">OFAS [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000113"/>
+    <skos:definition xml:lang="fr">OFAS
+3003 Berne
+Téléphone 031 322 90 11
+http://www.bsv.admin.ch</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-31T03:19:05-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000092">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Bundesamt für Statistik</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Ofﬁce fédéral de la statistique [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="de">BFS</skos:altLabel>
+    <skos:altLabel xml:lang="fr">OFS [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000113"/>
+    <skos:definition xml:lang="de">2010 Neuenburg
+Telefon 032 713 60 11
+www.bfs.admin.ch</skos:definition>
+    <skos:definition xml:lang="fr">Etablit des statistiques sur les soins en Suisse et sur l’état de santé de la population suisse.</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-31T03:19:46-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000093">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Bundesamt für Sport</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Ofﬁce fédéral du sport [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="de">BASPO</skos:altLabel>
+    <skos:altLabel xml:lang="fr">OFSPO [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000113"/>
+    <skos:definition xml:lang="fr">S’occupe de la promotion de la santé (sport, activité physique et santé) et de la prévention du dopage.</skos:definition>
+    <skos:definition xml:lang="de">Betreibt Gesundheitsförderung (Sport, Bewegung und Gesundheit) und Dopingprävention.</skos:definition>
+    <skos:definition xml:lang="fr">Ofﬁce fédéral du sport (OFSPO)
+2532 Macolin
+Téléphone 032 327 61 11
+http://www.baspo.admin.ch</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-31T03:20:42-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000119">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Institut</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">institut [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000038"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000039"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000094">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Staatssekretariat für Wirtschaft</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Secrétariat d’Etat à l’économie [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="de">seco</skos:altLabel>
+    <skos:altLabel xml:lang="fr">seco [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000113"/>
+    <skos:definition xml:lang="de">Zu seinen Aufgaben gehören Gesundheitsschutz und Prävention am Arbeitsplatz sowie die Sicherheit technischer Einrichtungen und Geräte.</skos:definition>
+    <skos:definition xml:lang="fr">La protection de la santé et la prévention sur le lieu de travail ainsi que la sécurité des équipements et appareils techniques font partie de ses activités.</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T21:00:28-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-18T21:04:19-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">Secrétariat d’Etat à l’économie (seco)&lt;br&gt;
+3003 Berne&lt;br&gt;
+Téléphone 031 322 56 56&lt;br&gt;
+www.seco.admin.ch</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-31T04:44:44-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000122">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="http://ogd-thesaurus.heroku.com/scheme"/>
+    <skos:prefLabel xml:lang="de">temp</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">temp [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:definition xml:lang="de">
+   * Haute école de santé http://www.heds-ge.ch/portail/welcome.nsf/pages/contactsF
+     * directeur daniel.petitmermet@hesge.ch
+   * Office fédéral de l'environement (OFEV) http://www.bafu.admin.ch
+     * Salome Sidler, Stv. Leiterin Rechtsdienst Bundesamt für Umwelt (-&gt; Antoine)
+   * Office fédéral des assurances sociales (OFAS) http://www.bsv.admin.ch
+   * Office fédéral de la statistique (OFS) http://bfs.admin.ch
+   * Office fédéral du sport (OFSPO) http://www.baspo.admin.ch
+   * Secrétariat d'Etat à l'économie (seco) http://www.seco.admin.ch
+   * Swissmedic http://www.swissmedic.ch
+   * SUVA http://www.suva.ch
+   * Office fédéral de la formation professionnelle et de la technologie (OFFT) http://www.bbt.admin.ch
+   * Conférence suisse des directrices et directeurs cantonaux des affaires sanitaires (CDS) http://www.gdk-cds.ch
+   * Observatoire suisse de la santé (obsan) http://www.obsan.ch
+   * Croix-Rouge suisse (CRS) http://www.redcross.ch
+   * Bureau suisse de prévention des accidents (bpa) http://www.bpa.ch
+   * Garde aérienne suisse de sauvetage (REGA) http://www.rega.ch
+   * Alliance suisse des samaritains (ASS) http://www.samaritains.ch
+   * Ligue suisse contre le cancer http://www.swisscancer.ch
+   * Fédération des médecins suisses (FMH) http://www.fmh.ch
+   * Société suisse d'odontostomaltologie (SSO) http://www.sso.ch
+   * Fondation Promotion santé suisse http://promotiondelasante.ch
+   * Santésuisse http://santesuisse.ch
+   * Départements cantonaux de la santé:
+     * Genève SITG couches santé
+     * Vaud
+     * Valais
+     * Friboug
+     * Neuchatel
+     * ...</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000005">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">seltene Krankheit</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">maladie orpheline [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000002"/>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T08:46:01-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/13248/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-09-29T07:46:13-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:definition xml:lang="fr">Dans le monde, on dénombre entre 6000 et 8000 maladies rares, dites orphelines car elles ne touchent chaque fois qu’un petit nombre de malades. On définit une maladie rare lorsqu’elle ne touche au maximum qu’une personne sur 2000. oeo</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000039">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">Swissmedic</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Swissmedic [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:altLabel xml:lang="de">Schweizerisches Heilmittelinstitut</skos:altLabel>
+    <skos:altLabel xml:lang="fr">Institut suisse des produits thérapeutiques [keine Übersetzung für 'de']</skos:altLabel>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000119"/>
+    <skos:definition xml:lang="fr">http://www.swissmedic.ch/org/00062/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-31T03:26:13-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-31T03:29:04-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-09-30T12:42:09-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ogd-thesaurus.heroku.com/_00000013">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="de">psychische Gesundheit</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">santé psychique [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">something [keine Übersetzung für 'de']</skos:prefLabel>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000014"/>
+    <skos:narrower rdf:resource="http://ogd-thesaurus.heroku.com/_00000018"/>
+    <skos:broader rdf:resource="http://ogd-thesaurus.heroku.com/_00000002"/>
+    <skos:definition xml:lang="fr">http://www.bag.admin.ch/themen/medizin/00683/01916/index.html?lang=fr</skos:definition>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:modified>2012-08-04T23:50:54-07:00</dct:modified>
+        <dct:creator>Admin Istrator</dct:creator>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Admin Istrator</dct:creator>
+        <dct:modified>2012-08-04T23:51:35-07:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+    <skos:changeNote>
+      <rdf:Description>
+        <dct:creator>Antoine Logean</dct:creator>
+        <dct:modified>2012-11-08T08:54:17-08:00</dct:modified>
+      </rdf:Description>
+    </skos:changeNote>
+  </rdf:Description>
+</rdf:RDF>

@@ -13,13 +13,90 @@ xmlns:rdfs="&rdfs;"
 </skos:Concept>
 
 <skos:Concept rdf:about="http://sitg.ch/0002">
-   <skos:prefLabel xml:lang="fr">CHILD 1</skos:prefLabel>
+   <skos:prefLabel xml:lang="fr">Santé</skos:prefLabel>
    <skos:broader rdf:resource="http://sitg.ch/0001" />
 </skos:Concept>
 
 <skos:Concept rdf:about="http://sitg.ch/0003">
-   <skos:prefLabel xml:lang="fr">CHILD 2</skos:prefLabel>
+   <skos:prefLabel xml:lang="fr">Mobilité</skos:prefLabel>
    <skos:broader rdf:resource="http://sitg.ch/0001" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0004">
+   <skos:prefLabel xml:lang="fr">Finance</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0001" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0005">
+   <skos:prefLabel xml:lang="fr">Environement</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0001" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0006">
+   <skos:prefLabel xml:lang="fr">Education</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0001" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0007">
+   <skos:prefLabel xml:lang="fr">fleuves et rivières</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0005" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0008">
+   <skos:prefLabel xml:lang="fr">forêts</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0005" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0009">
+   <skos:prefLabel xml:lang="fr">polutions</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0005" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0010">
+   <skos:prefLabel xml:lang="fr">air</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0009" />
+   <skos:related rdf:resource="http://sitg.ch/0011" />
+   <skos:related rdf:resource="http://sitg.ch/0014" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0011">
+   <skos:prefLabel xml:lang="fr">eaux</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0009" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0012">
+   <skos:prefLabel xml:lang="fr">sonore</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0009" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0013">
+   <skos:prefLabel xml:lang="fr">medecine</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0002" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0014">
+   <skos:prefLabel xml:lang="fr">maladies</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0002" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0015">
+   <skos:prefLabel xml:lang="fr">organisations</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0002" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0016">
+   <skos:prefLabel xml:lang="fr">facteurs de risque</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0002" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0017">
+   <skos:prefLabel xml:lang="fr">maladies infectieuses</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0014" />
+</skos:Concept>
+
+<skos:Concept rdf:about="http://sitg.ch/0018">
+   <skos:prefLabel xml:lang="fr">maladies chroniques</skos:prefLabel>
+   <skos:broader rdf:resource="http://sitg.ch/0014" />
 </skos:Concept>
 
 </rdf:RDF>

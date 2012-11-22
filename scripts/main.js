@@ -13,8 +13,8 @@ var uri      = document.location.hash.substr(1);
 var graph = Object.create(VISKOSITY.igraph);
 var win = $(window);
 graph.init("#viz", {}, {
-	width: win.width() * 0.9,
-	height: win.height() * 0.9,
+	width: win.width() * 0.8,
+	height: win.height() * 0.8,
 	provider: provider
 });
 
